@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ParamSuite" duration-ms="18286" started-at="2019-06-15T05:40:42Z" finished-at="2019-06-15T05:41:00Z">
+    <groups>
+    </groups>
+    <test name="Mercurytsparamtest" duration-ms="18286" started-at="2019-06-15T05:40:42Z" finished-at="2019-06-15T05:41:00Z">
+      <class name="com.model.MercurytsparamTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="openBrowser" is-config="true" duration-ms="3853" started-at="2019-06-15T05:40:38Z" finished-at="2019-06-15T05:40:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="enterApplicationURL(java.lang.String)[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="enterApplicationURL" is-config="true" duration-ms="4352" started-at="2019-06-15T05:40:42Z" finished-at="2019-06-15T05:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercurywelcome.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterApplicationURL -->
+        <test-method status="PASS" signature="maximizeBrowser()[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="maximizeBrowser" is-config="true" duration-ms="1139" started-at="2019-06-15T05:40:46Z" finished-at="2019-06-15T05:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeBrowser -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="getAllCookies" is-config="true" duration-ms="49" started-at="2019-06-15T05:40:47Z" finished-at="2019-06-15T05:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithvalidds1(java.lang.String, java.lang.String)[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="loginwithvalidds1" duration-ms="3985" started-at="2019-06-15T05:40:48Z" description="Verify that valid user able to login into Mercury Tours application by using valid username1 and password1" finished-at="2019-06-15T05:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidds1 -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="captureScreenshot" is-config="true" duration-ms="362" started-at="2019-06-15T05:40:51Z" finished-at="2019-06-15T05:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="getAllCookies" is-config="true" duration-ms="19" started-at="2019-06-15T05:40:52Z" finished-at="2019-06-15T05:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithvalidds2(java.lang.String, java.lang.String)[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="loginwithvalidds2" duration-ms="4111" started-at="2019-06-15T05:40:52Z" description="Verify that valid user able to login into Mercury Tours application by using valid username2 and password2" finished-at="2019-06-15T05:40:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidds2 -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="captureScreenshot" is-config="true" duration-ms="379" started-at="2019-06-15T05:40:56Z" finished-at="2019-06-15T05:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="getAllCookies" is-config="true" duration-ms="11" started-at="2019-06-15T05:40:56Z" finished-at="2019-06-15T05:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithvalidds3(java.lang.String, java.lang.String)[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="loginwithvalidds3" duration-ms="3439" started-at="2019-06-15T05:40:56Z" description="Verify that valid user able to login into Mercury Tours application by using valid username3 and password3" finished-at="2019-06-15T05:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidds3 -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="captureScreenshot" is-config="true" duration-ms="382" started-at="2019-06-15T05:41:00Z" finished-at="2019-06-15T05:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="deleteAllCookies" is-config="true" duration-ms="12" started-at="2019-06-15T05:41:00Z" finished-at="2019-06-15T05:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="dbConnectionClosed()[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="dbConnectionClosed" is-config="true" duration-ms="1" started-at="2019-06-15T05:41:00Z" finished-at="2019-06-15T05:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnectionClosed -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.model.MercurytsparamTest@675d3402]" name="closeBrowser" is-config="true" duration-ms="238" started-at="2019-06-15T05:41:00Z" finished-at="2019-06-15T05:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.model.MercurytsparamTest -->
+    </test> <!-- Mercurytsparamtest -->
+  </suite> <!-- ParamSuite -->
+</testng-results>

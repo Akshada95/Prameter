@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ParamSuite">
+              <span class="suite-name border-passed">ParamSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ParamSuite">
+                    <span>F:\Suvidya_data\Java_Selenium\MercurytsparamDemo2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ParamSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ParamSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ParamSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ParamSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ParamSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ParamSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ParamSuite" class="hide-methods passed suite-ParamSuite"> (hide)</a> <!-- hide-methods passed suite-ParamSuite -->
+                      <a href="#" panel-name="suite-ParamSuite" class="show-methods passed suite-ParamSuite"> (show)</a> <!-- show-methods passed suite-ParamSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ParamSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ParamSuite" title="com.model.MercurytsparamTest" hash-for-method="loginwithvalidds1(Suvidyap1, P@ssword1)">loginwithvalidds1(Suvidyap1, P@ssword1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ParamSuite" title="com.model.MercurytsparamTest" hash-for-method="loginwithvalidds2(Suvidyap2, P@ssword2)">loginwithvalidds2(Suvidyap2, P@ssword2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ParamSuite" title="com.model.MercurytsparamTest" hash-for-method="loginwithvalidds3(Suvidyap3, P@ssword3)">loginwithvalidds3(Suvidyap3, P@ssword3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ParamSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ParamSuite" class="panel ParamSuite">
+          <div class="suite-ParamSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.model.MercurytsparamTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithvalidds1(Suvidyap1, P@ssword1)">
+                  </a> <!-- loginwithvalidds1(Suvidyap1, P@ssword1) -->
+                  <span class="method-name">loginwithvalidds1</span>
+                  <span class="parameters">(Suvidyap1, P@ssword1)</span>
+                  <em>
+(Verify that valid user able to login into Mercury Tours application by using valid username1 and password1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithvalidds2(Suvidyap2, P@ssword2)">
+                  </a> <!-- loginwithvalidds2(Suvidyap2, P@ssword2) -->
+                  <span class="method-name">loginwithvalidds2</span>
+                  <span class="parameters">(Suvidyap2, P@ssword2)</span>
+                  <em>
+(Verify that valid user able to login into Mercury Tours application by using valid username2 and password2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithvalidds3(Suvidyap3, P@ssword3)">
+                  </a> <!-- loginwithvalidds3(Suvidyap3, P@ssword3) -->
+                  <span class="method-name">loginwithvalidds3</span>
+                  <span class="parameters">(Suvidyap3, P@ssword3)</span>
+                  <em>
+(Verify that valid user able to login into Mercury Tours application by using valid username3 and password3)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParamSuite-class-passed -->
+        </div> <!-- panel ParamSuite -->
+        <div panel-name="test-xml-ParamSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Suvidya_data\Java_Selenium\MercurytsparamDemo2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;ParamSuite&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Mercurytsparamtest&quot;&gt;
+    &lt;parameter name=&quot;password3&quot; value=&quot;P@ssword3&quot;/&gt;
+    &lt;parameter name=&quot;password2&quot; value=&quot;P@ssword2&quot;/&gt;
+    &lt;parameter name=&quot;username3&quot; value=&quot;Suvidyap3&quot;/&gt;
+    &lt;parameter name=&quot;password1&quot; value=&quot;P@ssword1&quot;/&gt;
+    &lt;parameter name=&quot;username2&quot; value=&quot;Suvidyap2&quot;/&gt;
+    &lt;parameter name=&quot;username1&quot; value=&quot;Suvidyap1&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://newtours.demoaut.com/mercurywelcome.php&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.model.MercurytsparamTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mercurytsparamtest --&gt;
+&lt;/suite&gt; &lt;!-- ParamSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ParamSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ParamSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Mercurytsparamtest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ParamSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ParamSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ParamSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ParamSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ParamSuite');
+function tableData_ParamSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginwithvalidds2')
+data.setCell(0, 2, 'com.model.MercurytsparamTest')
+data.setCell(0, 3, 4111);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginwithvalidds1')
+data.setCell(1, 2, 'com.model.MercurytsparamTest')
+data.setCell(1, 3, 3985);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginwithvalidds3')
+data.setCell(2, 2, 'com.model.MercurytsparamTest')
+data.setCell(2, 3, 3439);
+window.suiteTableData['ParamSuite']= { tableData: data, tableDiv: 'times-div-ParamSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-ParamSuite">
+              </div> <!-- times-div-ParamSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ParamSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ParamSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ParamSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ParamSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.model.MercurytsparamTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">enterApplicationURL(http://newtours.demoaut.com/mercurywelcome.php)</span>
+                <span class="method-start">3857 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">maximizeBrowser</span>
+                <span class="method-start">8216 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">getAllCookies</span>
+                <span class="method-start">9378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginwithvalidds1(Suvidyap1, P@ssword1)</span>
+                <span class="method-start">9428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot</span>
+                <span class="method-start">13416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getAllCookies</span>
+                <span class="method-start">13779 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginwithvalidds2(Suvidyap2, P@ssword2)</span>
+                <span class="method-start">13798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot</span>
+                <span class="method-start">17911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getAllCookies</span>
+                <span class="method-start">18291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginwithvalidds3(Suvidyap3, P@ssword3)</span>
+                <span class="method-start">18302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot</span>
+                <span class="method-start">21743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">deleteAllCookies</span>
+                <span class="method-start">22125 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">dbConnectionClosed</span>
+                <span class="method-start">22138 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">22186 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
